@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block title %}
+    <title>Newspaper agency</title>
+  {% endblock %}
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div>
+    <div>
+      {% block sidebar %}{% endblock %}
+    </div>
+    <div>
+      {% block content %}{% endblock %}
+    </div>
+  </div>
+</body>
+</html>
